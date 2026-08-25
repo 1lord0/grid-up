@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files & archives
+train.csv
+test.csv
+*.csv
+*.csv.gz
+*.zip
+*.gz
+*.pdf
+
+# Intermediate feature caches & logs
+catboost_info/
+colab_chunks/
+colab_chunks_4m/
+features_v11_shap/
+.pytest_cache/
+.aider*
+foto/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

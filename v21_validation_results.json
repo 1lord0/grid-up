@@ -1,0 +1,78 @@
+{
+  "iterations": 180,
+  "gate_scale": 0.9,
+  "results": [
+    {
+      "name": "commissioning_date_groupkfold",
+      "rows": 20633,
+      "facilities": 678,
+      "baseline_rmsle": 1.8112661800556475,
+      "gated_rmsle": 1.7947088611508488,
+      "direct_rmsle": 1.7691452672679369,
+      "mass_baseline_rmsle": 1.5515477834535307,
+      "mass_gated_rmsle": 1.5289751968164003,
+      "mean_gate_weight": 0.3173148674939577,
+      "gated_gain": 0.016557318904798723
+    },
+    {
+      "name": "rolling_2025-03-31_2025-07-31",
+      "rows": 20633,
+      "facilities": 678,
+      "baseline_rmsle": 1.8112661800556475,
+      "gated_rmsle": 1.80864371447991,
+      "direct_rmsle": 2.195249415458352,
+      "mass_baseline_rmsle": 1.5515477834535307,
+      "mass_gated_rmsle": 1.5746953580191736,
+      "mean_gate_weight": 0.16945662207768328,
+      "gated_gain": 0.0026224655757376425
+    },
+    {
+      "name": "rolling_2025-06-30_2025-09-30",
+      "rows": 15244,
+      "facilities": 587,
+      "baseline_rmsle": 1.986560531759044,
+      "gated_rmsle": 1.966820508367745,
+      "direct_rmsle": 1.9106049873305813,
+      "mass_baseline_rmsle": 1.624024848125183,
+      "mass_gated_rmsle": 1.6041556480574999,
+      "mean_gate_weight": 0.3595404102363438,
+      "gated_gain": 0.01974002339129899
+    },
+    {
+      "name": "rolling_2025-09-30_2025-12-31",
+      "rows": 48997,
+      "facilities": 1200,
+      "baseline_rmsle": 2.0802332353646737,
+      "gated_rmsle": 2.0617058696552815,
+      "direct_rmsle": 2.085111825278187,
+      "mass_baseline_rmsle": 2.1808958687766307,
+      "mass_gated_rmsle": 2.1609825801370657,
+      "mean_gate_weight": 0.36624286074244566,
+      "gated_gain": 0.018527365709392285
+    },
+    {
+      "name": "rolling_2025-12-31_2026-03-31",
+      "rows": 26707,
+      "facilities": 873,
+      "baseline_rmsle": 1.6600771337719136,
+      "gated_rmsle": 1.6522041820660935,
+      "direct_rmsle": 2.5214779472994433,
+      "mass_baseline_rmsle": 1.2778566817336148,
+      "mass_gated_rmsle": 1.2808316882253847,
+      "mean_gate_weight": 0.07260114175460711,
+      "gated_gain": 0.00787295170582003
+    },
+    {
+      "name": "full_commissioning_date_groupkfold",
+      "rows": 362580,
+      "facilities": 3193,
+      "baseline_rmsle": 2.0169405332938526,
+      "gated_rmsle": 1.9978765454900953,
+      "direct_rmsle": 1.9356222600868243,
+      "mass_baseline_rmsle": 1.9703740262958531,
+      "mass_gated_rmsle": 1.9531446555534737,
+      "mean_gate_weight": 0.3605959328944488,
+      "gated_gain": 0.019063987803757287
+    }
+  ]
+}
